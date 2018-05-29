@@ -1,4 +1,4 @@
-package pl.mrmario.tutorials.spring.owczarek.cz13;
+package pl.mrmario.tutorials.spring.owczarek.cz14;
 
 public class InjectedBean {
 	private String name;
