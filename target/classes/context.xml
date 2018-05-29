@@ -11,5 +11,5 @@
 	<bean id="repozytoriumSlownikow" class="pl.mrmario.tutorials.spring.owczarek.cz14.DictionaryRepository">
 	</bean>
 
-	<bean id="aplikacja" class="pl.mrmario.tutorials.spring.owczarek.cz14.Application" autowire="constructor"></bean>
+	<bean id="aplikacja" class="pl.mrmario.tutorials.spring.owczarek.cz14.Application" autowire="byType"></bean>
 </beans>
