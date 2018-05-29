@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.1.xsd">
+
+	<bean id="injectoinBean1" class="pl.mrmario.tutorials.spring.owczarek.cz13.InjectedBean">
+		<property name="name" value="MrMario100"></property>
+	</bean>
+	
+	<bean id="injectoinBean2" class="pl.mrmario.tutorials.spring.owczarek.cz13.InjectedBean">
+		<property name="name" value="MrMario200"></property>
+	</bean>
+	<bean id="someBean" class="pl.mrmario.tutorials.spring.owczarek.cz13.SomeBean" autowire="byName"></bean>
+</beans>
